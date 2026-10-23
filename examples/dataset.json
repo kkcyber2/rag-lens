@@ -1,0 +1,38 @@
+{
+  "name": "support-faq",
+  "examples": [
+    {
+      "id": "refund-window",
+      "question": "How long do I have to request a refund?",
+      "relevant_ids": ["p1"],
+      "reference_answer": "You have 30 days from delivery to request a refund.",
+      "passages": [
+        { "id": "p1", "text": "Refunds can be requested within 30 days of delivery. After that window the order is final." },
+        { "id": "p2", "text": "Shipping usually takes three to five business days." },
+        { "id": "p3", "text": "Gift cards are non-refundable and cannot be exchanged for cash." }
+      ]
+    },
+    {
+      "id": "shipping-time",
+      "question": "How long does shipping take?",
+      "relevant_ids": ["p2"],
+      "reference_answer": "Shipping takes three to five business days.",
+      "passages": [
+        { "id": "p1", "text": "Refunds can be requested within 30 days of delivery." },
+        { "id": "p2", "text": "Shipping usually takes three to five business days." },
+        { "id": "p3", "text": "Gift cards are non-refundable." }
+      ]
+    },
+    {
+      "id": "gift-cards",
+      "question": "Can I get cash for a gift card?",
+      "relevant_ids": ["p3"],
+      "reference_answer": "No, gift cards cannot be exchanged for cash.",
+      "passages": [
+        { "id": "p1", "text": "Refunds can be requested within 30 days of delivery." },
+        { "id": "p2", "text": "Shipping usually takes three to five business days." },
+        { "id": "p3", "text": "Gift cards are non-refundable and cannot be exchanged for cash." }
+      ]
+    }
+  ]
+}
